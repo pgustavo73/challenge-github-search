@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GitHubSearch</string>
+    <string name="nome_usuario">Nome do usuário</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="nameKey">NAME_KEY</string>
+    <string name="MSG">"Nada encontrado"</string>
+</resources>
