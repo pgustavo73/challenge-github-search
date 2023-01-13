@@ -12,6 +12,7 @@ import br.com.igorbag.githubsearch.R
 import br.com.igorbag.githubsearch.data.GitHubService
 import br.com.igorbag.githubsearch.databinding.ActivityMainBinding
 import br.com.igorbag.githubsearch.domain.Repository
+import br.com.igorbag.githubsearch.extensions.toast
 import br.com.igorbag.githubsearch.ui.adapter.RepositoryAdapter
 import retrofit2.Call
 import retrofit2.Callback
@@ -123,9 +124,4 @@ class MainActivity : AppCompatActivity() {
             )
         )
     }
-
-    fun toast(msg: String) {
-        Toast.makeText(this, msg, Toast.LENGTH_LONG).show()
-    }
-
 }
