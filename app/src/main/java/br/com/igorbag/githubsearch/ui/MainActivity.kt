@@ -58,7 +58,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun showUserName() {
         val savePrefs = getPreferences(Context.MODE_PRIVATE)
-        val name = savePrefs.getString(getString(R.string.nameKey), "1")
+        val name = savePrefs.getString(getString(R.string.nameKey), "")
         if (name != null) binding.etUseName.setText(name)
     }
 
